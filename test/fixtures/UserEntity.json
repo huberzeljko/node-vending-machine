@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "username": "seller_1",
+    "password": "seller_1",
+    "role": "SELLER",
+    "deposit": 0
+  },
+  {
+    "id": 2,
+    "username": "buyer_1",
+    "password": "buyer_1",
+    "role": "BUYER",
+    "deposit": 0
+  },
+  {
+    "id": 3,
+    "username": "seller_2",
+    "password": "seller_2",
+    "role": "SELLER",
+    "deposit": 0
+  },
+  {
+    "id": 4,
+    "username": "buyer_2",
+    "password": "buyer_2",
+    "role": "BUYER",
+    "deposit": 0
+  }
+]

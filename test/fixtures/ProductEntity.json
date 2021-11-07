@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "productName": "Chips",
+    "amountAvailable": 500,
+    "cost": 10,
+    "sellerId": 1
+  },
+  {
+    "id": 2,
+    "productName": "Chips 1",
+    "amountAvailable": 5,
+    "cost": 10,
+    "sellerId": 3
+  },
+  {
+    "id": 3,
+    "productName": "Chips 2",
+    "amountAvailable": 5,
+    "cost": 10,
+    "sellerId": 1
+  },
+  {
+    "id": 4,
+    "productName": "Chips 3",
+    "amountAvailable": 5,
+    "cost": 10,
+    "sellerId": 3
+  },
+  {
+    "id": 5,
+    "productName": "Chips 4",
+    "amountAvailable": 5,
+    "cost": 10,
+    "sellerId": 1
+  }
+]
