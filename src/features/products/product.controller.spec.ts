@@ -1,7 +1,12 @@
 import { ProductController } from 'src/features/products/product.controller';
 import { ProductService } from 'src/features/products/services';
 import { Test } from '@nestjs/testing';
-import { CreateProductDto, ProductDto, ProductFilterDto, ProductSearchResultDto, } from 'src/features/products/dtos';
+import {
+  CreateProductDto,
+  ProductDto,
+  ProductFilterDto,
+  ProductSearchResultDto,
+} from 'src/features/products/dtos';
 import { ProductEntity, UserEntity } from 'src/database';
 import { ProductRepository } from 'src/database/repositories';
 
@@ -181,15 +186,13 @@ describe('ProductController', () => {
   describe('DELETE /product:/id', () => {
     describe('when deleteProduct is called', () => {
       const product = getProduct();
-      let isDeleted = false;
 
       beforeEach(async () => {
-        isDeleted = await productController.removeById(product.id);
+        await productController.removeById(product.id);
       });
 
       test('then it should call productService', () => {
         expect(productService.removeById).toHaveBeenCalledWith(product.id);
-        expect(isDeleted).toBe(true);
       });
     });
   });
